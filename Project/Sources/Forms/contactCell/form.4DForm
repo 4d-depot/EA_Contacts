@@ -1,0 +1,123 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 2000,
+	"bottomMargin": 40,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle0": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 326,
+					"height": 100,
+					"visibility": "hidden",
+					"stroke": "#98C1FF"
+				},
+				"photo0": {
+					"type": "input",
+					"top": 10,
+					"left": 10,
+					"width": 80,
+					"height": 80,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "picture",
+					"class": "Header16",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"name0": {
+					"type": "input",
+					"top": 9,
+					"left": 98,
+					"width": 212,
+					"height": 21,
+					"visibility": "hidden",
+					"class": "Header16",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"company0": {
+					"type": "input",
+					"top": 33,
+					"left": 98,
+					"width": 212,
+					"height": 16,
+					"visibility": "hidden",
+					"class": "default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"phone_email0": {
+					"type": "input",
+					"top": 55,
+					"left": 98,
+					"width": 212,
+					"height": 33,
+					"visibility": "hidden",
+					"stroke": "#7281A3",
+					"class": "default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"button0": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 326,
+					"height": 100,
+					"focusable": false,
+					"style": "custom",
+					"method": "ObjectMethods/button0.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

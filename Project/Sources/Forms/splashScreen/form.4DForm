@@ -1,0 +1,194 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "4D Starter Application",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 178,
+					"width": 493,
+					"height": 362,
+					"fill": "#ECECEC",
+					"stroke": "transparent"
+				},
+				"Round Rectangle2": {
+					"type": "rectangle",
+					"top": 313,
+					"left": 431,
+					"width": 220,
+					"height": 29,
+					"fill": "#FA7C3F",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 313,
+					"left": 201,
+					"width": 220,
+					"height": 29,
+					"fill": "#FA7C3F",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Round Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 178,
+					"height": 363,
+					"stroke": "transparent"
+				},
+				"Oval13": {
+					"type": "oval",
+					"top": 21,
+					"left": 21,
+					"width": 140,
+					"height": 140,
+					"fill": "transparent",
+					"stroke": "#696969",
+					"strokeWidth": 4
+				},
+				"Oval14": {
+					"type": "oval",
+					"top": 31,
+					"left": 61,
+					"width": 60,
+					"height": 60,
+					"fill": "transparent",
+					"stroke": "#696969",
+					"strokeWidth": 4
+				},
+				"Oval15": {
+					"type": "oval",
+					"top": 88,
+					"left": 30,
+					"width": 122,
+					"height": 60,
+					"fill": "transparent",
+					"stroke": "#696969",
+					"strokeWidth": 4
+				},
+				"Oval16": {
+					"type": "oval",
+					"top": 102,
+					"left": 39,
+					"width": 105,
+					"height": 55,
+					"fill": "#696969",
+					"stroke": "#696969",
+					"strokeWidth": 4
+				},
+				"Text": {
+					"type": "text",
+					"top": 30,
+					"left": 200,
+					"width": 327,
+					"height": 23,
+					"stroke": "#696969",
+					"class": "font18",
+					"text": "Welcome to 4D Contact Application"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 73,
+					"left": 200,
+					"width": 455,
+					"height": 193,
+					"stroke": "#696969",
+					"class": "font14",
+					"text": "This application provides a demo for a basic contact manager. Contact information can either be displayed in input view or grid view for easy viewing. Users can also create, edit, or delete contacts if needed."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 289,
+					"left": 201,
+					"width": 368,
+					"height": 19,
+					"stroke": "#696969",
+					"class": "font14",
+					"text": "Start the application with"
+				},
+				"Button": {
+					"type": "button",
+					"top": 313,
+					"left": 201,
+					"width": 220,
+					"height": 30,
+					"action": "accept",
+					"class": "font14",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": "The current data file",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 313,
+					"left": 431,
+					"width": 220,
+					"height": 30,
+					"class": "font14",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": "A new data file",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group3": [
+				"Oval13",
+				"Oval14",
+				"Oval15",
+				"Oval16"
+			]
+		}
+	}
+}

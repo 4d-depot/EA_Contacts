@@ -1,0 +1,451 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "Contact Manager",
+	"windowMinWidth": 1219,
+	"windowMinHeight": 695,
+	"width": 1219,
+	"height": 695,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onTimer",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1219,
+					"height": 40,
+					"sizingX": "grow",
+					"fill": "#444444",
+					"stroke": "transparent"
+				},
+				"categories_SF": {
+					"type": "subform",
+					"top": 51,
+					"left": 10,
+					"width": 225,
+					"height": 633,
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.categories",
+					"detailForm": "categoryList",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/categories_SF.4dm"
+				},
+				"contacts_SF": {
+					"type": "subform",
+					"top": 88,
+					"left": 242,
+					"width": 337,
+					"height": 597,
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.contacts",
+					"detailForm": "contactList",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/contacts_SF.4dm"
+				},
+				"searchRect": {
+					"type": "rectangle",
+					"top": 51,
+					"left": 241,
+					"width": 338,
+					"height": 31,
+					"stroke": "#C0C0C0"
+				},
+				"Oval": {
+					"type": "oval",
+					"top": 59,
+					"left": 248,
+					"width": 13,
+					"height": 13,
+					"fill": "transparent",
+					"stroke": "#C0C0C0"
+				},
+				"Line": {
+					"type": "line",
+					"top": 70,
+					"left": 259,
+					"width": 7,
+					"height": 7,
+					"stroke": "#C0C0C0"
+				},
+				"Invisible Button": {
+					"type": "button",
+					"top": 54,
+					"left": 550,
+					"width": 21,
+					"height": 25,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 70,
+					"left": 559,
+					"width": 2,
+					"stroke": "#C0C0C0"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 69,
+					"left": 558,
+					"width": 4,
+					"stroke": "#C0C0C0"
+				},
+				"Line3": {
+					"type": "line",
+					"top": 68,
+					"left": 557,
+					"width": 6,
+					"stroke": "#C0C0C0"
+				},
+				"Line4": {
+					"type": "line",
+					"top": 67,
+					"left": 556,
+					"width": 8,
+					"stroke": "#C0C0C0"
+				},
+				"Line5": {
+					"type": "line",
+					"top": 66,
+					"left": 555,
+					"width": 10,
+					"stroke": "#C0C0C0"
+				},
+				"searchText": {
+					"type": "input",
+					"top": 60,
+					"left": 272,
+					"width": 249,
+					"height": 16,
+					"dataSource": "Form:C1466.searchText",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/searchText.4dm",
+					"events": [
+						"onAfterEdit"
+					]
+				},
+				"contactInput_SF": {
+					"type": "subform",
+					"top": 51,
+					"left": 588,
+					"width": 621,
+					"height": 634,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.contact",
+					"detailForm": "contactInput",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/contactInput_SF.4dm"
+				},
+				"layoutButton1Rect": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 1121,
+					"width": 38,
+					"height": 40,
+					"sizingX": "move",
+					"fill": "#EEEEEE",
+					"stroke": "transparent"
+				},
+				"Line8": {
+					"type": "line",
+					"top": 13,
+					"left": 1131,
+					"width": 4,
+					"sizingX": "move",
+					"stroke": "#AAAAAA",
+					"strokeWidth": 2
+				},
+				"Line9": {
+					"type": "line",
+					"top": 17,
+					"left": 1131,
+					"width": 4,
+					"sizingX": "move",
+					"stroke": "#AAAAAA",
+					"strokeWidth": 2
+				},
+				"Line10": {
+					"type": "line",
+					"top": 21,
+					"left": 1131,
+					"width": 4,
+					"sizingX": "move",
+					"stroke": "#AAAAAA",
+					"strokeWidth": 2
+				},
+				"Line6": {
+					"type": "line",
+					"top": 25,
+					"left": 1131,
+					"width": 4,
+					"sizingX": "move",
+					"stroke": "#AAAAAA",
+					"strokeWidth": 2
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 12,
+					"left": 1137,
+					"width": 14,
+					"height": 16,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "#AAAAAA"
+				},
+				"Text": {
+					"type": "text",
+					"top": 11,
+					"left": 28,
+					"width": 46,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "System Font ",
+					"fontSize": 13,
+					"text": "NEW"
+				},
+				"Oval1": {
+					"type": "oval",
+					"top": 11,
+					"left": 13,
+					"width": 9,
+					"height": 9,
+					"stroke": "transparent"
+				},
+				"Oval2": {
+					"type": "oval",
+					"top": 19,
+					"left": 11,
+					"width": 13,
+					"height": 12,
+					"stroke": "transparent"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 26,
+					"left": 9,
+					"width": 17,
+					"height": 6,
+					"fill": "#444444",
+					"stroke": "transparent"
+				},
+				"layoutButton2Rect": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 1167,
+					"width": 38,
+					"height": 40,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"fill": "#EEEEEE",
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 12,
+					"left": 1175,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 12,
+					"left": 1183,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 1175,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 1183,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 24,
+					"left": 1175,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 24,
+					"left": 1183,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle12": {
+					"type": "rectangle",
+					"top": 12,
+					"left": 1191,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle13": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 1191,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"Rectangle14": {
+					"type": "rectangle",
+					"top": 24,
+					"left": 1191,
+					"width": 6,
+					"height": 4,
+					"sizingX": "move",
+					"fill": "#AAAAAA",
+					"stroke": "transparent"
+				},
+				"upButton1": {
+					"type": "button",
+					"top": 1,
+					"left": 0,
+					"width": 74,
+					"height": 38,
+					"focusable": false,
+					"style": "custom",
+					"method": "ObjectMethods/upButton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"layoutButton1": {
+					"type": "button",
+					"top": 1,
+					"left": 1121,
+					"width": 39,
+					"height": 38,
+					"focusable": false,
+					"style": "custom",
+					"method": "ObjectMethods/layoutButton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"layoutButton2": {
+					"type": "button",
+					"top": 0,
+					"left": 1167,
+					"width": 39,
+					"height": 40,
+					"focusable": false,
+					"style": "custom",
+					"method": "ObjectMethods/layoutButton2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group1": [
+				"Oval",
+				"Line"
+			],
+			"Group2": [
+				"Line1",
+				"Line2",
+				"Line3",
+				"Line4",
+				"Line5"
+			],
+			"Group16": [
+				"layoutButton1Rect",
+				"Line8",
+				"Line9",
+				"Line10",
+				"Line6",
+				"Rectangle11"
+			],
+			"Group8": [
+				"Oval1",
+				"Oval2",
+				"Rectangle7"
+			],
+			"Group14": [
+				"layoutButton2Rect",
+				"Rectangle4",
+				"Rectangle5",
+				"Rectangle6",
+				"Rectangle8",
+				"Rectangle9",
+				"Rectangle10",
+				"Rectangle12",
+				"Rectangle13",
+				"Rectangle14"
+			]
+		}
+	}
+}

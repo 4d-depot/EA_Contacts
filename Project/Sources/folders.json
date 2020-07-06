@@ -1,0 +1,59 @@
+﻿{
+	"Contacts": {
+		"groups": [
+			"Forms",
+			"Project Methods",
+			"Tables"
+		]
+	},
+	"Forms": {
+		"forms": [
+			"[Contact]contactInput2",
+			"categoryList",
+			"contactCell",
+			"contactInput",
+			"contactList",
+			"contactManager"
+		]
+	},
+	"Project Methods": {
+		"methods": [
+			"Compiler_Methods",
+			"Compiler_Variables",
+			"findCategory",
+			"formatContactColumn",
+			"highlightRow",
+			"initializeContactGrid",
+			"loadCategories",
+			"loadContactCells",
+			"loadContactInput",
+			"loadContactManagerController",
+			"loadContacts",
+			"openContactsManager",
+			"scrollToRow"
+		]
+	},
+	"Splashscreen": {
+		"methods": [
+			"_openSplashScreen"
+		],
+		"forms": [
+			"splashScreen"
+		]
+	},
+	"Tables": {
+		"tables": [
+			"Category",
+			"Contact"
+		]
+	},
+	"Unused": {
+		"forms": [
+			"[Category]Input",
+			"[Category]Output",
+			"[Contact]Input",
+			"[Contact]Output"
+		]
+	},
+	"trash": {}
+}

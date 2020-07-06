@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Contacts" uuid="DBBEF2A81E834A9D96EDB285DF0C531A" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Category" uuid="80662A3EEF9A4D1ABE099454585A4F23" id="1">
+		<field name="ID" uuid="1A6CDA23F4BC4629AFCBDE95A0F63F05" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="0602961EA30B4171BBA84399A33B8669" type="10" limiting_length="255" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="1A6CDA23F4BC4629AFCBDE95A0F63F05"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Contact" uuid="ECC7720941714842A391D68F29A7169E" id="3" prevent_journaling="true">
+		<field name="ID" uuid="5F1E04286B9A4AB2AAC38B6760C51194" type="4" unique="true" autosequence="true" id="1"/>
+		<field name="FirstName" uuid="7F8450DE205F43759E79F607B580AEAD" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="LastName" uuid="595FD385E7DF4B75A6D945FF20528C85" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="MiddleName" uuid="DD266EEC0C2342F89B533483637A2B9A" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Title" uuid="2B9C4F13EEFA4B44B92D61311CFB860D" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Organization" uuid="372A0F202C434E21BF783D3E32630865" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="JobTitle" uuid="A2CB64EA44544DB7A3780D740B15F452" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="Email" uuid="E00858896F424BA7ABDDA7C99944B889" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="WorkPhone" uuid="64E29144BC2648549399BDFB729DB6F2" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="HomePhone" uuid="D149DE60AF554C5380565B51439BC05F" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="MobilePhone" uuid="D1156BEFD0684288974D1BEFDB231632" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="WorkAddress" uuid="EB450D5595FB44C891C14763A16F8E03" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="WorkCity" uuid="FC710D57463D4FA0A4139CE0CB34174C" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="WorkState" uuid="F50556B59535421AB5F1D2390CC0D144" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="WorkZip" uuid="8EDC8B8E50A74FA2979F6FF9D1949AFC" type="10" limiting_length="255" never_null="true" id="15"/>
+		<field name="WorkCountry" uuid="09BF923B010644AB8A05FB119BD7DB9B" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="HomeAddress" uuid="54679EC53B0A4B9C8136621FAF39837D" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="HomeCity" uuid="2CD742647EE24A4C99AD1C90B2109C56" type="10" limiting_length="255" never_null="true" id="18"/>
+		<field name="HomeState" uuid="4FF732E44D9A4114A1A44995DE988E5F" type="10" limiting_length="255" never_null="true" id="19"/>
+		<field name="HomeZip" uuid="E3FFDEB50013442CB48FB79A98D50C81" type="10" limiting_length="255" never_null="true" id="20"/>
+		<field name="HomeCountry" uuid="4CDC9CA06AB040C997E71DDA93DF69E2" type="10" limiting_length="255" never_null="true" id="21"/>
+		<field name="Notes" uuid="3A77DAF34CF24B8891E2CCC614C43271" type="10" limiting_length="255" never_null="true" id="22"/>
+		<field name="Photo" uuid="A4D737B155814B3D8BD4C647B293C8FD" type="12" never_null="true" id="23"/>
+		<field name="CategoryID" uuid="6AC833017FFB4887986A7E7399150CD5" type="4" never_null="true" id="24"/>
+		<primary_key field_name="ID" field_uuid="5F1E04286B9A4AB2AAC38B6760C51194"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="26">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="297.12109375" top="43.61328125" width="217.953125" height="591.45703125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="752003FF2E5043DAA4FB10D251425A21" name_Nto1="category" name_1toN="contacts" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="6AC833017FFB4887986A7E7399150CD5" name="CategoryID">
+				<table_ref uuid="ECC7720941714842A391D68F29A7169E" name="Contact"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="1A6CDA23F4BC4629AFCBDE95A0F63F05" name="ID">
+				<table_ref uuid="80662A3EEF9A4D1ABE099454585A4F23" name="Category"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="32C71D6FA1C144268C063397053BD8AE" type="7">
+		<field_ref uuid="1A6CDA23F4BC4629AFCBDE95A0F63F05" name="ID">
+			<table_ref uuid="80662A3EEF9A4D1ABE099454585A4F23" name="Category"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="7F1D858505614985A3ECCD00705135C9" type="1">
+		<field_ref uuid="5F1E04286B9A4AB2AAC38B6760C51194" name="ID">
+			<table_ref uuid="ECC7720941714842A391D68F29A7169E" name="Contact"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="Contacts" structure_file_name="Contacts" data_file_path=":Contacts.4DD">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>
