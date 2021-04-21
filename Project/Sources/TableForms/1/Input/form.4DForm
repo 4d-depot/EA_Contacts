@@ -46,8 +46,6 @@
 					"left": 554,
 					"width": 100,
 					"height": 12,
-					"stroke": "#000000",
-					"fontFamily": ".SF NS Text",
 					"fontSize": 9,
 					"focusable": false,
 					"tooltip": {
@@ -64,7 +62,8 @@
 						"onLoad",
 						"onHeader",
 						"onPrintingBreak"
-					]
+					],
+					"fontTheme": "normal"
 				},
 				"Text5": {
 					"type": "text",
@@ -73,7 +72,6 @@
 					"width": 515,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
 					"text": "Category"
 				},
 				"Line6": {
@@ -81,7 +79,8 @@
 					"top": 77,
 					"left": 19,
 					"width": 644,
-					"sizingX": "grow"
+					"sizingX": "grow",
+					"stroke": "automatic"
 				},
 				"bFirst": {
 					"type": "pictureButton",
@@ -270,7 +269,6 @@
 					"height": 17,
 					"dataSource": "[Category:1]Name:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -289,5 +287,9 @@
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }

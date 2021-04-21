@@ -28,7 +28,8 @@
 					"width": 326,
 					"height": 100,
 					"visibility": "hidden",
-					"stroke": "#98C1FF"
+					"fill": "automatic",
+					"class": "accentColor2"
 				},
 				"photo0": {
 					"type": "input",
@@ -38,7 +39,7 @@
 					"height": 80,
 					"visibility": "hidden",
 					"dataSourceTypeHint": "picture",
-					"class": "Header16",
+					"class": "",
 					"focusable": false,
 					"enterable": false,
 					"contextMenu": "none",
@@ -55,7 +56,7 @@
 					"width": 212,
 					"height": 21,
 					"visibility": "hidden",
-					"class": "Header16",
+					"class": "font16",
 					"fontWeight": "bold",
 					"focusable": false,
 					"fill": "transparent",
@@ -92,8 +93,7 @@
 					"width": 212,
 					"height": 33,
 					"visibility": "hidden",
-					"stroke": "#7281A3",
-					"class": "default",
+					"class": "default accentColor1",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -119,5 +119,17 @@
 				}
 			}
 		}
-	]
+	],
+	"geometryStamp": 8,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

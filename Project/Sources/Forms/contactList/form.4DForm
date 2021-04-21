@@ -26,7 +26,8 @@
 					"width": 339,
 					"height": 33,
 					"sizingY": "move",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"Variable": {
 					"type": "input",
@@ -36,16 +37,16 @@
 					"height": 16,
 					"sizingY": "move",
 					"dataSource": "Form:C1466.recordsFound",
-					"stroke": "#808080",
 					"focusable": false,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"enterable": false,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"class": "accentColor1"
 				},
 				"contacts_LB": {
 					"type": "listbox",
@@ -113,8 +114,8 @@
 								"text": "Name",
 								"textAlign": "center",
 								"verticalAlign": "middle",
-								"fontFamily": ".SF NS Text",
-								"fontSize": 12
+								"fontSize": 12,
+								"fontTheme": "normal"
 							},
 							"footer": {
 								"name": "Footer2",
@@ -138,8 +139,8 @@
 								"text": "Phone",
 								"textAlign": "center",
 								"verticalAlign": "middle",
-								"fontFamily": ".SF NS Text",
-								"fontSize": 12
+								"fontSize": 12,
+								"fontTheme": "normal"
 							},
 							"footer": {
 								"name": "Footer3",
@@ -151,5 +152,10 @@
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 4
 }

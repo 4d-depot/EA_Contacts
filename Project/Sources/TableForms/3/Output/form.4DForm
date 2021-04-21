@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "listScreen",
 	"rightMargin": 16,
 	"bottomMargin": 10,
@@ -42,16 +42,6 @@
 		null,
 		{
 			"objects": {
-				"Picture6": {
-					"type": "picture",
-					"top": -5,
-					"left": 0,
-					"width": 1146,
-					"height": 24,
-					"sizingX": "grow",
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture6.png"
-				},
 				"S1_Text": {
 					"type": "text",
 					"top": 0,
@@ -104,7 +94,8 @@
 					"width": 1146,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -142,7 +133,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Contact:3]FirstName:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -167,7 +158,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Contact:3]LastName:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -193,7 +184,7 @@
 					"sizingX": "grow",
 					"dataSource": "[Contact:3]CategoryID:24",
 					"dataSourceTypeHint": "integer",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -242,7 +233,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line9": {
 					"type": "line",
@@ -250,14 +241,14 @@
 					"left": 1146,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line10": {
 					"type": "line",
 					"top": -5,
 					"left": 834,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "button",
@@ -276,7 +267,7 @@
 					"top": -5,
 					"left": 728,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter3": {
 					"type": "button",
@@ -295,7 +286,7 @@
 					"top": -5,
 					"left": 416,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter4": {
 					"type": "button",
@@ -314,7 +305,7 @@
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter5": {
 					"type": "button",
@@ -330,5 +321,11 @@
 				}
 			}
 		}
-	]
+	],
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"colorScheme": "light"
 }

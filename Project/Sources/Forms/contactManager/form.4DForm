@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowTitle": "Contact Manager",
 	"windowMinWidth": 1219,
@@ -22,7 +22,19 @@
 		"paperHeight": "611pt"
 	},
 	"pages": [
-		null,
+		{
+			"objects": {
+				"Rectangle16": {
+					"type": "rectangle",
+					"top": -2,
+					"left": -2,
+					"width": 1225,
+					"height": 704,
+					"stroke": "transparent",
+					"class": "accentBackColor2"
+				}
+			}
+		},
 		{
 			"objects": {
 				"Rectangle": {
@@ -32,8 +44,8 @@
 					"width": 1219,
 					"height": 40,
 					"sizingX": "grow",
-					"fill": "#444444",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor3"
 				},
 				"categories_SF": {
 					"type": "subform",
@@ -73,7 +85,8 @@
 					"left": 241,
 					"width": 338,
 					"height": 31,
-					"stroke": "#C0C0C0"
+					"fill": "automatic",
+					"class": "accentColor4"
 				},
 				"Oval": {
 					"type": "oval",
@@ -82,7 +95,7 @@
 					"width": 13,
 					"height": 13,
 					"fill": "transparent",
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"Line": {
 					"type": "line",
@@ -90,7 +103,7 @@
 					"left": 259,
 					"width": 7,
 					"height": 7,
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"Invisible Button": {
 					"type": "button",
@@ -109,35 +122,35 @@
 					"top": 70,
 					"left": 559,
 					"width": 2,
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"Line2": {
 					"type": "line",
 					"top": 69,
 					"left": 558,
 					"width": 4,
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"Line3": {
 					"type": "line",
 					"top": 68,
 					"left": 557,
 					"width": 6,
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"Line4": {
 					"type": "line",
 					"top": 67,
 					"left": 556,
 					"width": 8,
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"Line5": {
 					"type": "line",
 					"top": 66,
 					"left": 555,
 					"width": 10,
-					"stroke": "#C0C0C0"
+					"class": "accentColor4"
 				},
 				"searchText": {
 					"type": "input",
@@ -153,7 +166,9 @@
 					"method": "ObjectMethods/searchText.4dm",
 					"events": [
 						"onAfterEdit"
-					]
+					],
+					"class": "",
+					"fill": "transparent"
 				},
 				"contactInput_SF": {
 					"type": "subform",
@@ -179,44 +194,8 @@
 					"width": 38,
 					"height": 40,
 					"sizingX": "move",
-					"fill": "#EEEEEE",
-					"stroke": "transparent"
-				},
-				"Line8": {
-					"type": "line",
-					"top": 13,
-					"left": 1131,
-					"width": 4,
-					"sizingX": "move",
-					"stroke": "#AAAAAA",
-					"strokeWidth": 2
-				},
-				"Line9": {
-					"type": "line",
-					"top": 17,
-					"left": 1131,
-					"width": 4,
-					"sizingX": "move",
-					"stroke": "#AAAAAA",
-					"strokeWidth": 2
-				},
-				"Line10": {
-					"type": "line",
-					"top": 21,
-					"left": 1131,
-					"width": 4,
-					"sizingX": "move",
-					"stroke": "#AAAAAA",
-					"strokeWidth": 2
-				},
-				"Line6": {
-					"type": "line",
-					"top": 25,
-					"left": 1131,
-					"width": 4,
-					"sizingX": "move",
-					"stroke": "#AAAAAA",
-					"strokeWidth": 2
+					"stroke": "transparent",
+					"class": "accentBackColor2"
 				},
 				"Rectangle11": {
 					"type": "rectangle",
@@ -225,8 +204,8 @@
 					"width": 14,
 					"height": 16,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "#AAAAAA"
+					"class": "accentBackColor1",
+					"stroke": "transparent"
 				},
 				"Text": {
 					"type": "text",
@@ -234,11 +213,11 @@
 					"left": 28,
 					"width": 46,
 					"height": 16,
-					"stroke": "#FFFFFF",
 					"textAlign": "center",
 					"fontFamily": "System Font ",
 					"fontSize": 13,
-					"text": "NEW"
+					"text": "NEW",
+					"class": "accentColor3"
 				},
 				"Oval1": {
 					"type": "oval",
@@ -246,7 +225,8 @@
 					"left": 13,
 					"width": 9,
 					"height": 9,
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor2"
 				},
 				"Oval2": {
 					"type": "oval",
@@ -254,7 +234,8 @@
 					"left": 11,
 					"width": 13,
 					"height": 12,
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor2"
 				},
 				"Rectangle7": {
 					"type": "rectangle",
@@ -262,8 +243,8 @@
 					"left": 9,
 					"width": 17,
 					"height": 6,
-					"fill": "#444444",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor3"
 				},
 				"layoutButton2Rect": {
 					"type": "rectangle",
@@ -273,8 +254,8 @@
 					"height": 40,
 					"visibility": "hidden",
 					"sizingX": "move",
-					"fill": "#EEEEEE",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor2"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -283,8 +264,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle5": {
 					"type": "rectangle",
@@ -293,8 +274,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle6": {
 					"type": "rectangle",
@@ -303,8 +284,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle8": {
 					"type": "rectangle",
@@ -313,8 +294,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle9": {
 					"type": "rectangle",
@@ -323,8 +304,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle10": {
 					"type": "rectangle",
@@ -333,8 +314,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle12": {
 					"type": "rectangle",
@@ -343,8 +324,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle13": {
 					"type": "rectangle",
@@ -353,8 +334,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"Rectangle14": {
 					"type": "rectangle",
@@ -363,8 +344,8 @@
 					"width": 6,
 					"height": 4,
 					"sizingX": "move",
-					"fill": "#AAAAAA",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "accentBackColor1"
 				},
 				"upButton1": {
 					"type": "button",
@@ -404,6 +385,46 @@
 					"events": [
 						"onClick"
 					]
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 13,
+					"left": 1131,
+					"width": 4,
+					"height": 2,
+					"class": "accentBackColor1",
+					"stroke": "transparent",
+					"sizingX": "move"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 17,
+					"left": 1131,
+					"width": 4,
+					"height": 2,
+					"class": "accentBackColor1",
+					"stroke": "transparent",
+					"sizingX": "move"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 21,
+					"left": 1131,
+					"width": 4,
+					"height": 2,
+					"class": "accentBackColor1",
+					"stroke": "transparent",
+					"sizingX": "move"
+				},
+				"Rectangle15": {
+					"type": "rectangle",
+					"top": 25,
+					"left": 1131,
+					"width": 4,
+					"height": 2,
+					"class": "accentBackColor1",
+					"stroke": "transparent",
+					"sizingX": "move"
 				}
 			}
 		}
@@ -421,20 +442,7 @@
 				"Line4",
 				"Line5"
 			],
-			"Group16": [
-				"layoutButton1Rect",
-				"Line8",
-				"Line9",
-				"Line10",
-				"Line6",
-				"Rectangle11"
-			],
-			"Group8": [
-				"Oval1",
-				"Oval2",
-				"Rectangle7"
-			],
-			"Group14": [
+			"Group3": [
 				"layoutButton2Rect",
 				"Rectangle4",
 				"Rectangle5",
@@ -445,7 +453,33 @@
 				"Rectangle12",
 				"Rectangle13",
 				"Rectangle14"
+			],
+			"Group": [
+				"layoutButton1Rect",
+				"Rectangle11",
+				"Rectangle1",
+				"Rectangle2",
+				"Rectangle3",
+				"Rectangle15"
 			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"visible": false,
+				"objects": [
+					"upButton1",
+					"layoutButton1",
+					"layoutButton2"
+				]
+			}
 		}
-	}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 148
 }

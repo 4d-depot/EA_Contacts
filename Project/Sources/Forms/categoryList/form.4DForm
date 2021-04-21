@@ -37,7 +37,7 @@
 					"scrollbarVertical": "automatic",
 					"horizontalLineStroke": "transparent",
 					"verticalLineStroke": "transparent",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"verticalAlign": "middle",
 					"borderStyle": "none",
 					"method": "ObjectMethods/categories_LB.4dm",
@@ -51,7 +51,6 @@
 							"minWidth": 5,
 							"maxWidth": 32000,
 							"enterable": false,
-							"fill": "#FFFFFF",
 							"verticalAlign": "middle",
 							"events": [
 								"onClick",
@@ -76,7 +75,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"enterable": false,
-							"fill": "#FFFFFF",
 							"textAlign": "left",
 							"verticalAlign": "middle",
 							"events": [
@@ -103,7 +101,6 @@
 							"maxWidth": 32000,
 							"enterable": false,
 							"visibility": "hidden",
-							"fill": "#FFFFFF",
 							"verticalAlign": "middle",
 							"events": [
 								"onClick",
@@ -129,7 +126,6 @@
 							"maxWidth": 32000,
 							"enterable": false,
 							"pictureFormat": "truncatedCenter",
-							"fill": "#FFFFFF",
 							"textAlign": "right",
 							"verticalAlign": "middle",
 							"events": [
@@ -152,5 +148,9 @@
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }

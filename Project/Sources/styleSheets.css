@@ -1,0 +1,59 @@
+@media (prefers-color-scheme: light){
+	.accentColor1 {
+		stroke: #8594B2;
+	}
+
+	.accentColor2 {
+		stroke: #DDDDDD;
+	}
+
+	.accentColor3 {
+		stroke: #EEEEEE;
+	}
+
+	.accentColor4 {
+		stroke: #C0C0C0;
+	}
+
+	.accentBackColor1 {
+		fill: #AAAAAA;
+	}
+
+	.accentBackColor2 {
+		fill: #EEEEEE;
+	}
+
+	.accentBackColor3 {
+		fill: #444444;
+	}
+}
+
+@media (prefers-color-scheme: dark){
+	.accentColor1 {
+		stroke: #A1BFFC;
+	}
+
+	.accentColor2 {
+		stroke: #4C4C4D;
+	}
+
+	.accentColor3 {
+		stroke: #4D4D4D;
+	}
+
+	.accentColor4 {
+		stroke: #46484A
+	}
+
+	.accentBackColor1 {
+		fill: #7F7E7F;
+	}
+
+	.accentBackColor2 {
+		fill: #444444;
+	}
+
+  .accentBackColor3 {
+		fill: #CBCACB;
+	}
+}

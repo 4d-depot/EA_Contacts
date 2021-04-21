@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="Contacts" uuid="DBBEF2A81E834A9D96EDB285DF0C531A" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
@@ -39,7 +39,7 @@
 		<field name="Photo" uuid="A4D737B155814B3D8BD4C647B293C8FD" type="12" never_null="true" id="23"/>
 		<field name="CategoryID" uuid="6AC833017FFB4887986A7E7399150CD5" type="4" never_null="true" id="24"/>
 		<primary_key field_name="ID" field_uuid="5F1E04286B9A4AB2AAC38B6760C51194"/>
-		<table_extra input_form="Input" output_form="Output">
+		<table_extra input_form="contactInput2" output_form="Output">
 			<editor_table_info displayable_fields_count="26">
 				<color red="255" green="255" blue="255" alpha="0"/>
 				<coordinates left="297.12109375" top="43.61328125" width="217.953125" height="591.45703125"/>
@@ -73,7 +73,7 @@
 			<table_ref uuid="ECC7720941714842A391D68F29A7169E" name="Contact"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="Contacts" structure_file_name="Contacts" data_file_path=":Contacts.4DD">
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0" package_name="Contacts" structure_file_name="Contacts" data_file_path=":Contacts.4DD">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
 </base>

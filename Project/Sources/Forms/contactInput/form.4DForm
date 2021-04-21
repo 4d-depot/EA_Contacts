@@ -23,7 +23,8 @@
 					"height": 638,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"deleteButton": {
 					"type": "button",
@@ -84,8 +85,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Name"
+					"text": "Name",
+					"class": "accentColor1"
 				},
 				"Text1": {
 					"type": "text",
@@ -93,8 +94,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Group"
+					"text": "Group",
+					"class": "accentColor1"
 				},
 				"Text2": {
 					"type": "text",
@@ -102,8 +103,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 17,
-					"stroke": "#8594B2",
-					"text": "Email"
+					"text": "Email",
+					"class": "accentColor1"
 				},
 				"Text3": {
 					"type": "text",
@@ -111,8 +112,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 17,
-					"stroke": "#8594B2",
-					"text": "Phone"
+					"text": "Phone",
+					"class": "accentColor1"
 				},
 				"Text4": {
 					"type": "text",
@@ -120,8 +121,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 17,
-					"stroke": "#8594B2",
-					"text": "Job Title"
+					"text": "Job Title",
+					"class": "accentColor1"
 				},
 				"Text5": {
 					"type": "text",
@@ -129,78 +130,78 @@
 					"left": 137,
 					"width": 73,
 					"height": 17,
-					"stroke": "#8594B2",
-					"text": "Company"
+					"text": "Company",
+					"class": "accentColor1"
 				},
 				"Line": {
 					"type": "line",
 					"top": 40,
 					"left": 212,
 					"width": 47,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line1": {
 					"type": "line",
 					"top": 40,
 					"left": 272,
 					"width": 127,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line2": {
 					"type": "line",
 					"top": 40,
 					"left": 412,
 					"width": 187,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line3": {
 					"type": "line",
 					"top": 75,
 					"left": 212,
 					"width": 387,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line4": {
 					"type": "line",
 					"top": 110,
 					"left": 212,
 					"width": 387,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line5": {
 					"type": "line",
 					"top": 147,
 					"left": 212,
 					"width": 107,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line6": {
 					"type": "line",
 					"top": 147,
 					"left": 352,
 					"width": 107,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line7": {
 					"type": "line",
 					"top": 147,
 					"left": 492,
 					"width": 107,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line8": {
 					"type": "line",
 					"top": 183,
 					"left": 212,
 					"width": 387,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line9": {
 					"type": "line",
 					"top": 219,
 					"left": 212,
 					"width": 387,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Title": {
 					"type": "input",
@@ -365,9 +366,9 @@
 					"left": 180,
 					"width": 33,
 					"height": 16,
-					"stroke": "#8594B2",
 					"textAlign": "right",
-					"text": "W"
+					"text": "W",
+					"class": "accentColor1"
 				},
 				"Text7": {
 					"type": "text",
@@ -375,9 +376,9 @@
 					"left": 320,
 					"width": 33,
 					"height": 16,
-					"stroke": "#8594B2",
 					"textAlign": "right",
-					"text": "H"
+					"text": "H",
+					"class": "accentColor1"
 				},
 				"Text8": {
 					"type": "text",
@@ -385,9 +386,9 @@
 					"left": 460,
 					"width": 33,
 					"height": 16,
-					"stroke": "#8594B2",
 					"textAlign": "right",
-					"text": "M"
+					"text": "M",
+					"class": "accentColor1"
 				},
 				"Rectangle1": {
 					"type": "rectangle",
@@ -396,7 +397,7 @@
 					"width": 33,
 					"height": 167,
 					"fill": "transparent",
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Rectangle2": {
 					"type": "rectangle",
@@ -405,7 +406,7 @@
 					"width": 480,
 					"height": 167,
 					"fill": "transparent",
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Text9": {
 					"type": "text",
@@ -413,11 +414,11 @@
 					"left": 94,
 					"width": 18,
 					"height": 113,
-					"stroke": "#8594B2",
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"textAngle": 270,
-					"text": "Work Address"
+					"text": "Work Address",
+					"class": "accentColor1"
 				},
 				"Text11": {
 					"type": "text",
@@ -425,8 +426,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Street"
+					"text": "Street",
+					"class": "accentColor1"
 				},
 				"Text12": {
 					"type": "text",
@@ -434,8 +435,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "City"
+					"text": "City",
+					"class": "accentColor1"
 				},
 				"Text13": {
 					"type": "text",
@@ -443,8 +444,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "State"
+					"text": "State",
+					"class": "accentColor1"
 				},
 				"Text14": {
 					"type": "text",
@@ -452,43 +453,43 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Country"
+					"text": "Country",
+					"class": "accentColor1"
 				},
 				"Line10": {
 					"type": "line",
 					"top": 277,
 					"left": 212,
 					"width": 367,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line11": {
 					"type": "line",
 					"top": 313,
 					"left": 212,
 					"width": 367,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line12": {
 					"type": "line",
 					"top": 349,
 					"left": 212,
 					"width": 227,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line13": {
 					"type": "line",
 					"top": 385,
 					"left": 212,
 					"width": 367,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line14": {
 					"type": "line",
 					"top": 349,
 					"left": 492,
 					"width": 87,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Text15": {
 					"type": "text",
@@ -496,8 +497,8 @@
 					"left": 460,
 					"width": 33,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Zip"
+					"text": "Zip",
+					"class": "accentColor1"
 				},
 				"Variable1": {
 					"type": "input",
@@ -581,7 +582,7 @@
 					"width": 33,
 					"height": 167,
 					"fill": "transparent",
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -590,7 +591,7 @@
 					"width": 480,
 					"height": 167,
 					"fill": "transparent",
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Text10": {
 					"type": "text",
@@ -598,11 +599,11 @@
 					"left": 94,
 					"width": 18,
 					"height": 113,
-					"stroke": "#8594B2",
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"textAngle": 270,
-					"text": "Home Address"
+					"text": "Home Address",
+					"class": "accentColor1"
 				},
 				"Text16": {
 					"type": "text",
@@ -610,8 +611,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Street"
+					"text": "Street",
+					"class": "accentColor1"
 				},
 				"Text17": {
 					"type": "text",
@@ -619,8 +620,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "City"
+					"text": "City",
+					"class": "accentColor1"
 				},
 				"Text18": {
 					"type": "text",
@@ -628,8 +629,8 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "State"
+					"text": "State",
+					"class": "accentColor1"
 				},
 				"Text19": {
 					"type": "text",
@@ -637,43 +638,43 @@
 					"left": 137,
 					"width": 73,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Country"
+					"text": "Country",
+					"class": "accentColor1"
 				},
 				"Line15": {
 					"type": "line",
 					"top": 462,
 					"left": 212,
 					"width": 367,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line16": {
 					"type": "line",
 					"top": 498,
 					"left": 212,
 					"width": 367,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line17": {
 					"type": "line",
 					"top": 534,
 					"left": 212,
 					"width": 227,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line18": {
 					"type": "line",
 					"top": 570,
 					"left": 212,
 					"width": 367,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Line19": {
 					"type": "line",
 					"top": 534,
 					"left": 492,
 					"width": 87,
-					"stroke": "#DDDDDD"
+					"class": "accentColor2"
 				},
 				"Text20": {
 					"type": "text",
@@ -681,8 +682,8 @@
 					"left": 460,
 					"width": 33,
 					"height": 16,
-					"stroke": "#8594B2",
-					"text": "Zip"
+					"text": "Zip",
+					"class": "accentColor1"
 				},
 				"Variable8": {
 					"type": "input",
@@ -798,7 +799,7 @@
 					"selectionMode": "single",
 					"scrollbarHorizontal": "hidden",
 					"scrollbarVertical": "hidden",
-					"horizontalLineStroke": "#DDDDDD",
+					"horizontalLineStroke": "automatic",
 					"verticalLineStroke": "transparent",
 					"stroke": "#000000",
 					"fill": "#E6EFFF",
@@ -816,7 +817,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"enterable": false,
-							"stroke": "#000000",
 							"fill": "#E6EFFF",
 							"alternateFill": "#FFFFC0",
 							"verticalAlign": "middle",
@@ -827,13 +827,11 @@
 							"header": {
 								"name": "Header2",
 								"text": "Header2",
-								"stroke": "#000000",
 								"verticalAlign": "middle"
 							},
 							"footer": {
 								"name": "Footer2",
 								"timeFormat": "hh_mm_ss",
-								"stroke": "#000000",
 								"fill": "#E6EFFF",
 								"verticalAlign": "middle"
 							}
@@ -862,8 +860,22 @@
 				"Variable12",
 				"Variable13",
 				"Variable14",
-				"autofill_preview_lb"
+				"autofill_preview_lb",
+				"deleteButton",
+				"saveButton"
 			]
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 94,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

@@ -1,23 +1,23 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
 	<com.4d>
 		<deployment>
-			<options/>
+			<options/>&#xa;&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;
 		</deployment>
 		<interface>
-			<developper display_toolbar="false"/>
-			<user splash_screen="false"/>
+			<developper display_toolbar="true"/>
+			<user color_scheme="inherited" splash_screen="false"/>&#xa;&#xa;&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;
 		</interface>
 		<compiler>
-			<options compilation_path="3"/>
+			<options compilation_path="3"/>&#xa;&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;
 		</compiler>
 		<general startup_environnement="1"/>
 		<server>
 			<network>
-				<options publication_name="Contacts"/>
-			</network>
+				<options publication_name="Contacts"/>&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;&#x9;
+			</network>&#xa;&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;
 		</server>
 		<database>
-			<cache flush_buffer_delay="20s"/>
-		</database>
-	</com.4d>
+			<cache flush_buffer_delay="20s"/>&#xa;&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;
+		</database>&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#x9;&#x9;&#xa;&#x9;&#x9;&#xa;&#x9;&#x9;&#xa;&#x9;&#x9;&#xa;&#x9;&#x9;&#xa;&#x9;&#x9;&#xa;&#x9;
+	</com.4d>&#xa;&#xa;&#x9;&#xa;
 </preferences>
