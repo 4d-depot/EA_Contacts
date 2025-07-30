@@ -3,17 +3,17 @@
 	font-size: 13px;
 }
 
-.font14 {
+.fontSmall {
 	font-family: Helvetica;
 	font-size: 14px;
 }
 
-.font16 {
+.fontMedium {
 		font-family: Helvetica;
 		font-size: 16px;
 }
 
-.font18 {
+.fontBig {
 	font-family: Helvetica;
 	font-size: 18px;
 }

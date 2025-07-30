@@ -1,8 +1,7 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284($1;$action_t)
-$action_t:=$1
+#DECLARE($action_t : Text)
 
-C_BOOLEAN:C305($loadCategory_b)
+var $loadCategory_b : Boolean
 
 Case of 
 	: ($action_t="On Init")

@@ -1,22 +1,3 @@
-listbox {
-	headerHeight: 24px;
-	footerHeight: 10px;
-	rowHeight: 30px;
-	movableRows: false;
-	scrollbarHorizontal: hidden;
-	scrollbarVertical: hidden;
-	horizontalLineStroke: transparent;
-	verticalLineStroke: transparent;
-	verticalAlign: middle;
-	borderStyle: none;
-	resizingMode: legacy;
-}
-
-input {
-	borderStyle: none;
-	hideFocusRing: true; 
-}
-
 @media (prefers-color-scheme: light){
 	.accentColor1 { stroke: #8594B2; }
 	.accentColor2 { stroke: #DDDDDD; }

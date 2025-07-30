@@ -46,7 +46,7 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
-	<relation uuid="752003FF2E5043DAA4FB10D251425A21" name_Nto1="category" name_1toN="contacts" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+	<relation uuid="752003FF2E5043DAA4FB10D251425A21" name_Nto1="category" name_1toN="contacts" state="1">
 		<related_field kind="source">
 			<field_ref uuid="6AC833017FFB4887986A7E7399150CD5" name="CategoryID">
 				<table_ref uuid="ECC7720941714842A391D68F29A7169E" name="Contact"/>
@@ -73,7 +73,7 @@
 			<table_ref uuid="ECC7720941714842A391D68F29A7169E" name="Contact"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0" package_name="Contacts" structure_file_name="Contacts" data_file_path=":Contacts.4DD">
+	<base_extra package_name="Contacts" structure_file_name="Contacts" data_file_path=":Contacts.4DD">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
 </base>

@@ -18,9 +18,6 @@
 	},
 	"Project Methods": {
 		"methods": [
-			"Compiler_Methods",
-			"Compiler_Variables",
-			"findCategory",
 			"formatContactColumn",
 			"highlightRow",
 			"initializeContactGrid",

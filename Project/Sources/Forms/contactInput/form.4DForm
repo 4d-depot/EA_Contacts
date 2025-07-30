@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"rightMargin": 0,
 	"bottomMargin": 0,
@@ -7,6 +7,9 @@
 	"markerBody": 200,
 	"markerBreak": 220,
 	"markerFooter": 240,
+	"css": {
+		"$ref": "/LOGS/theme/theme.json#/css1"
+	},
 	"pageFormat": {
 		"paperName": "US Letter",
 		"paperWidth": "792pt",
@@ -24,12 +27,12 @@
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"stroke": "transparent",
-					"fill": "automatic"
+					"class": "accentBackColor4"
 				},
 				"deleteButton": {
 					"type": "button",
 					"top": 604,
-					"left": 8,
+					"left": 17,
 					"width": 90,
 					"height": 24,
 					"sizingY": "move",
@@ -37,7 +40,7 @@
 					"focusable": false,
 					"text": "Delete",
 					"iconFrames": 4,
-					"style": "roundedBevel",
+					"style": "regular",
 					"method": "ObjectMethods/deleteButton.4dm",
 					"events": [
 						"onClick"
@@ -46,7 +49,7 @@
 				"saveButton": {
 					"type": "button",
 					"top": 604,
-					"left": 522,
+					"left": 509,
 					"width": 90,
 					"height": 24,
 					"sizingX": "move",
@@ -55,16 +58,26 @@
 					"focusable": false,
 					"text": "Save",
 					"iconFrames": 4,
-					"style": "roundedBevel",
+					"style": "regular",
 					"method": "ObjectMethods/saveButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"defaultButton": false
 				}
 			}
 		},
 		{
 			"objects": {
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 14,
+					"left": 14,
+					"width": 106,
+					"height": 106,
+					"class": "accentColor2",
+					"fill": "transparent"
+				},
 				"Variable": {
 					"type": "input",
 					"top": 17,
@@ -77,7 +90,9 @@
 					"dragging": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"class": "",
+					"fill": "transparent"
 				},
 				"Text": {
 					"type": "text",
@@ -210,8 +225,6 @@
 					"width": 34,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.Title",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -225,8 +238,6 @@
 					"width": 114,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.FirstName",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -240,8 +251,6 @@
 					"width": 174,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.LastName",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -255,8 +264,6 @@
 					"width": 374,
 					"height": 16,
 					"dataSource": "Form:C1466.categoryName",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"method": "ObjectMethods/categoryName.4dm",
@@ -271,8 +278,6 @@
 					"width": 374,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.Email",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -286,8 +291,6 @@
 					"width": 94,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.WorkPhone",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"textFormat": "###-###-####",
 					"entryFilter": "!0&9###-###-####",
 					"dragging": "none",
@@ -303,8 +306,6 @@
 					"width": 94,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.HomePhone",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"textFormat": "###-###-####",
 					"entryFilter": "!0&9###-###-####",
 					"dragging": "none",
@@ -320,8 +321,6 @@
 					"width": 94,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.MobilePhone",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"textFormat": "###-###-####",
 					"entryFilter": "!0&9###-###-####",
 					"dragging": "none",
@@ -337,8 +336,6 @@
 					"width": 374,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.JobTitle",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -352,8 +349,6 @@
 					"width": 374,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.Organization",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -418,7 +413,7 @@
 					"fontWeight": "bold",
 					"textAngle": 270,
 					"text": "Work Address",
-					"class": "accentColor1"
+					"class": "accentColor1 fontSmall"
 				},
 				"Text11": {
 					"type": "text",
@@ -507,8 +502,6 @@
 					"width": 354,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.WorkAddress",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -522,8 +515,6 @@
 					"width": 354,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.WorkCity",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -537,8 +528,6 @@
 					"width": 214,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.WorkState",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -552,8 +541,6 @@
 					"width": 74,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.WorkZip",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -567,8 +554,6 @@
 					"width": 354,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.WorkCountry",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -603,7 +588,7 @@
 					"fontWeight": "bold",
 					"textAngle": 270,
 					"text": "Home Address",
-					"class": "accentColor1"
+					"class": "accentColor1 fontSmall"
 				},
 				"Text16": {
 					"type": "text",
@@ -692,8 +677,6 @@
 					"width": 354,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.HomeAddress",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -707,8 +690,6 @@
 					"width": 354,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.HomeCity",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -722,8 +703,6 @@
 					"width": 214,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.HomeState",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -737,8 +716,6 @@
 					"width": 74,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.HomeZip",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -752,8 +729,6 @@
 					"width": 354,
 					"height": 16,
 					"dataSource": "Form:C1466.ent.HomeCountry",
-					"borderStyle": "none",
-					"hideFocusRing": true,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -870,7 +845,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 94,
+	"geometryStamp": 128,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

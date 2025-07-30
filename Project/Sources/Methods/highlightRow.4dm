@@ -1,7 +1,4 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284($1;$listboxName_t)
-C_LONGINT:C283($2;$rowNum_l)
-$listboxName_t:=$1
-$rowNum_l:=$2
+#DECLARE($listboxName_t : Text; $rowNum_l : Integer)
 
-LISTBOX SELECT ROW:C912(*;$listboxName_t;$rowNum_l)
+LISTBOX SELECT ROW:C912(*; $listboxName_t; $rowNum_l)

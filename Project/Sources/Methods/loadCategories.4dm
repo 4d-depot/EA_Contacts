@@ -1,14 +1,17 @@
 //%attributes = {"invisible":true}
-C_OBJECT:C1216($categories_es; $category_e; $category_o; $status_o)
+var $categories_es; $category_e; $category_o; $status_o : Object
 
 $categories_es:=ds:C1482.Category.all().orderBy("Name")
 Form:C1466.categories.data:=New collection:C1472
 
 // Get arrow picture
-C_PICTURE:C286($arrow_p)
-C_TEXT:C284($picturePath_t)
-//$picturePath_t:=Get 4D folder(Current resources folder)+"Navs"+Folder separator+"arrow_white.png"
-$picturePath_t:=Get 4D folder:C485(Current resources folder:K5:16)+"Navs"+Folder separator:K24:12+"arrow_black.png"
+var $arrow_p : Picture
+var $picturePath_t : Text
+If (FORM Get color scheme:C1761="light")
+	$picturePath_t:=File:C1566("/RESOURCES/Navs/arrow.png").platformPath
+Else 
+	$picturePath_t:=File:C1566("/RESOURCES/Navs/arrow_dark.png").platformPath
+End if 
 
 // Only display categories that contain contacts, else delete empty group
 For each ($category_e; $categories_es)

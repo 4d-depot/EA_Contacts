@@ -1,4 +1,4 @@
-﻿{
+{
 	"bars": [
 		{
 			"id": 1,
@@ -21,6 +21,11 @@
 			"link": 32001,
 			"title": ":xliff:CommonMenuFile",
 			"items": [
+				{
+					"title": "Theme...",
+					"method": "openTheme",
+					"startNewProcess": true
+				},
 				{
 					"title": "Open Contact Manager",
 					"method": "openContactsManager",

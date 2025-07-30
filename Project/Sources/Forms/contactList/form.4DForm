@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"rightMargin": 0,
 	"bottomMargin": 0,
@@ -6,6 +6,9 @@
 	"markerBody": 200,
 	"markerBreak": 220,
 	"markerFooter": 240,
+	"css": {
+		"$ref": "/LOGS/theme/theme.json#/css1"
+	},
 	"events": [
 		"onLoad"
 	],
@@ -27,7 +30,7 @@
 					"height": 33,
 					"sizingY": "move",
 					"stroke": "transparent",
-					"fill": "automatic"
+					"class": "accentBackColor4"
 				},
 				"Variable": {
 					"type": "input",
@@ -38,15 +41,14 @@
 					"sizingY": "move",
 					"dataSource": "Form:C1466.recordsFound",
 					"focusable": false,
-					"fill": "automatic",
-					"borderStyle": "none",
 					"enterable": false,
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
 					],
-					"class": "accentColor1"
+					"class": "accentColor1",
+					"fill": "transparent"
 				},
 				"contacts_LB": {
 					"type": "listbox",
@@ -55,26 +57,19 @@
 					"width": 338,
 					"height": 559,
 					"sizingY": "grow",
-					"resizingMode": "legacy",
 					"listboxType": "collection",
 					"movableRows": false,
-					"rowHeight": "30px",
-					"headerHeight": "24px",
 					"footerHeight": "10px",
 					"dataSource": "Form:C1466.data",
 					"currentItemSource": "Form:C1466.currItem",
 					"currentItemPositionSource": "Form:C1466.currPos",
 					"selectedItemsSource": "Form:C1466.selItems",
-					"scrollbarHorizontal": "hidden",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"verticalAlign": "middle",
-					"borderStyle": "none",
 					"method": "ObjectMethods/contacts_LB.4dm",
 					"events": [
 						"onDoubleClick",
 						"onSelectionChange"
 					],
+					"class": "accentBackColor4 default",
 					"columns": [
 						{
 							"name": "Column1",
@@ -114,7 +109,6 @@
 								"text": "Name",
 								"textAlign": "center",
 								"verticalAlign": "middle",
-								"fontSize": 12,
 								"fontTheme": "normal"
 							},
 							"footer": {
@@ -125,7 +119,7 @@
 						},
 						{
 							"name": "Column3",
-							"dataSource": "formatContactColumn ",
+							"dataSource": "formatContactColumn",
 							"width": 143,
 							"minWidth": 10,
 							"maxWidth": 32000,
@@ -138,9 +132,7 @@
 								"name": "Header3",
 								"text": "Phone",
 								"textAlign": "center",
-								"verticalAlign": "middle",
-								"fontSize": 12,
-								"fontTheme": "normal"
+								"verticalAlign": "middle"
 							},
 							"footer": {
 								"name": "Footer3",
@@ -157,5 +149,12 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 4
+	"geometryStamp": 10,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

@@ -1,0 +1,29 @@
+{
+	"Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Project:Contacts.4DProject": [
+		{
+			"backupPath": "Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Contacts[0001].4BK",
+			"structurePath": "Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Project:Contacts.4DProject",
+			"dataPath": "Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Data:Contacts.4DD",
+			"logPath": "",
+			"startingDate": "2025-07-23T09:12:28.212Z",
+			"endingDate": "2025-07-23T09:12:28.212Z",
+			"scheduledDate": "2025-07-23T09:12:28.212Z",
+			"backupNumber": 1,
+			"duration": 44,
+			"attachments": [
+				{
+					"attachmentPath": "Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Data:Contacts.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Data:Contacts.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "Macintosh HD:Users:vanessa:Documents:GitHub:EA_Contacts:Data:Contacts.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}

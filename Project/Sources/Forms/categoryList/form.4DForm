@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"rightMargin": 0,
 	"bottomMargin": 0,
@@ -6,6 +6,9 @@
 	"markerBody": 200,
 	"markerBreak": 220,
 	"markerFooter": 240,
+	"css": {
+		"$ref": "/LOGS/theme/theme.json#/css1"
+	},
 	"pageFormat": {
 		"paperName": "US Letter",
 		"paperWidth": "792pt",
@@ -22,28 +25,19 @@
 					"width": 227,
 					"height": 634,
 					"sizingY": "grow",
-					"resizingMode": "legacy",
 					"listboxType": "collection",
 					"movableRows": false,
-					"hideExtraBlankRows": true,
-					"rowHeight": "30px",
 					"showHeaders": false,
 					"dataSource": "Form:C1466.data",
 					"currentItemSource": "Form:C1466.currItem",
 					"currentItemPositionSource": "Form:C1466.currPos",
 					"selectedItemsSource": "Form:C1466.selItems",
 					"selectionMode": "single",
-					"scrollbarHorizontal": "hidden",
-					"scrollbarVertical": "automatic",
-					"horizontalLineStroke": "transparent",
-					"verticalLineStroke": "transparent",
-					"fill": "automatic",
-					"verticalAlign": "middle",
-					"borderStyle": "none",
 					"method": "ObjectMethods/categories_LB.4dm",
 					"events": [
 						"onSelectionChange"
 					],
+					"class": "accentBackColor4 default",
 					"columns": [
 						{
 							"name": "Column1",
@@ -152,5 +146,13 @@
 	"$4d": {
 		"version": "1",
 		"kind": "form"
-	}
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"geometryStamp": 4
 }

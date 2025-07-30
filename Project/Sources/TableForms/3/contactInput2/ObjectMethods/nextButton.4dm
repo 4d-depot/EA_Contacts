@@ -1,4 +1,4 @@
-C_OBJECT:C1216($ent)
+var $ent : cs:C1710.ContactEntity
 $ent:=Form:C1466.ent.next()
 
 If ($ent#Null:C1517)

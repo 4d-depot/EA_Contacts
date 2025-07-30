@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: light){
+	.accentColor1 { stroke: #6BA368; }
+	.accentColor2 { stroke: #CDE0CD; }
+	.accentColor3 { stroke: #E3F2E1; }
+	.accentColor4 { stroke: #9EBFA0; }
+
+	.accentBackColor1 { fill: #86B68B; }
+	.accentBackColor2 { fill: #E6F4E6; }
+	.accentBackColor3 { fill: #3D5C3F; }
+	.accentBackColor4 { fill: #FFFFFF; }
+}
+
+@media (prefers-color-scheme: dark){
+	.accentColor1 { stroke: #8DDC8A; }
+	.accentColor2 { stroke: #2C3A2C; }
+	.accentColor3 { stroke: #364B36; }
+	.accentColor4 { stroke: #446544; }
+
+	.accentBackColor1 { fill: #7AA17D; }
+	.accentBackColor2 { fill: #2F3F2F; }
+	.accentBackColor3 { fill: #B6D4B5; }
+	.accentBackColor4 { fill: #181818; }
+}

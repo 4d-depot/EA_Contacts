@@ -1,12 +1,12 @@
-C_BOOLEAN:C305($tryAgain_b)
-C_TEXT:C284($datafile_t)
+var $tryAgain_b : Boolean
+var $datafile_t : Text
 
 Repeat 
 	$tryAgain_b:=False:C215
-	$datafile_t:=Select document:C905(Get 4D folder:C485(Database folder:K5:14);".4dd";"New data file";File name entry:K24:17)
+	$datafile_t:=Select document:C905(Get 4D folder:C485(Database folder:K5:14); ".4dd"; "New data file"; File name entry:K24:17)
 	If (OK=1)
 		If (document#Data file:C490)
-			TEXT TO DOCUMENT:C1237(Get 4D folder:C485(Database folder:K5:14)+"new4DD";"new data file")
+			TEXT TO DOCUMENT:C1237(Get 4D folder:C485(Database folder:K5:14)+"new4DD"; "new data file")
 			CREATE DATA FILE:C313(document)
 			CANCEL:C270
 		Else 

@@ -6,6 +6,9 @@
 	"markerBody": 200,
 	"markerBreak": 220,
 	"markerFooter": 240,
+	"css": {
+		"$ref": "/LOGS/theme/theme.json#/css1"
+	},
 	"events": [
 		"onLoad",
 		"onUnload",
@@ -56,7 +59,7 @@
 					"width": 212,
 					"height": 21,
 					"visibility": "hidden",
-					"class": "font16",
+					"class": "fontMedium",
 					"fontWeight": "bold",
 					"focusable": false,
 					"fill": "transparent",

@@ -1,10 +1,10 @@
-C_OBJECT:C1216($status_o)
-C_TEXT:C284($name_t)
+var $status_o : Object
+var $name_t : Text
 $name_t:=Form:C1466.ent.FirstName+" "+Form:C1466.ent.LastName
 
-C_OBJECT:C1216(next_e;prev_e)
+var next_e; prev_e : Object
 
-CONFIRM:C162("Are you sure you want to delete "+$name_t+"?";"Delete";"Cancel")
+CONFIRM:C162("Are you sure you want to delete "+$name_t+"?"; "Delete"; "Cancel")
 If (OK=1)
 	lastUpdatedContact_e:=Form:C1466.ent
 	

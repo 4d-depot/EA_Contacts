@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowTitle": "4D Starter Application",
 	"windowSizingX": "fixed",
@@ -120,7 +120,7 @@
 					"width": 327,
 					"height": 23,
 					"stroke": "#696969",
-					"class": "font18",
+					"class": "fontBig",
 					"text": "Welcome to 4D Contact Application"
 				},
 				"Text1": {
@@ -130,7 +130,7 @@
 					"width": 455,
 					"height": 193,
 					"stroke": "#696969",
-					"class": "font14",
+					"class": "fontSmall",
 					"text": "This application provides a demo for a basic contact manager. Contact information can either be displayed in input view or grid view for easy viewing. Users can also create, edit, or delete contacts if needed."
 				},
 				"Text2": {
@@ -140,7 +140,7 @@
 					"width": 368,
 					"height": 19,
 					"stroke": "#696969",
-					"class": "font14",
+					"class": "fontSmall",
 					"text": "Start the application with"
 				},
 				"Button": {
@@ -150,7 +150,7 @@
 					"width": 220,
 					"height": 30,
 					"action": "accept",
-					"class": "font14",
+					"class": "fontSmall",
 					"stroke": "#FFFFFF",
 					"focusable": false,
 					"text": "The current data file",
@@ -167,7 +167,7 @@
 					"left": 431,
 					"width": 220,
 					"height": 30,
-					"class": "font14",
+					"class": "fontSmall",
 					"stroke": "#FFFFFF",
 					"focusable": false,
 					"text": "A new data file",
@@ -190,5 +190,9 @@
 				"Oval16"
 			]
 		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

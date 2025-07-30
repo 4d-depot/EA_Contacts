@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: light){
+	.accentColor1 { stroke: #C99700; }       /* jaune lumineux tirant vers or foncé → lisible */
+	.accentColor2 { stroke: #FFE278; }       /* jaune clair, mais pas fade */
+	.accentColor3 { stroke: #FFF4B8; }       /* crème-jaune pastel */
+	.accentColor4 { stroke: #FFD23C; }       /* jaune franc saturé */
+
+	.accentBackColor1 { fill: #FFCC00; }     /* jaune éclatant lisible même sur blanc */
+	.accentBackColor2 { fill: #FFFBE5; }     /* fond très clair, crème-jaune */
+	.accentBackColor3 { fill: #8A6B00; }     /* pour contraste fort (icônes, contours) */
+    .accentBackColor4 { fill: #FFFFFF; }
+}
+
+@media (prefers-color-scheme: dark){
+	.accentColor1 { stroke: #FFD54F; }
+	.accentColor2 { stroke: #4A3D12; }
+	.accentColor3 { stroke: #5C4E1A; }
+	.accentColor4 { stroke: #7B6219; }
+
+	.accentBackColor1 { fill: #CCAA00; }
+	.accentBackColor2 { fill: #322A0F; }
+	.accentBackColor3 { fill: #FFE58F; }
+    .accentBackColor4 { fill: #000000; }
+}

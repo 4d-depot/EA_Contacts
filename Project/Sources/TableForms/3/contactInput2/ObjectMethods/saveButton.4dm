@@ -1,24 +1,25 @@
 If (Form:C1466.ent.FirstName="") | (Form:C1466.ent.LastName="")
 	ALERT:C41("Contact must have first name and last name")
 Else 
-	  // Set field CategoryID properly before saving
-	C_OBJECT:C1216($categories_es;$status_o)
-	$categories_es:=ds:C1482.Category.query("Name = :1";Form:C1466.categoryName)
+	// Set field CategoryID properly before saving
+	var $categories_es : cs:C1710.CategorySelection
+	var $status_o : Object
+	$categories_es:=ds:C1482.Category.query("Name = :1"; Form:C1466.categoryName)
 	
 	Case of 
-			  // If empty group name, assign CategoryID 0
+			// If empty group name, assign CategoryID 0
 		: (Form:C1466.categoryName="")
 			Form:C1466.ent.CategoryID:=0
 			groupAction_t:="On Empty Group"
 			
-			  // If existing group name, assign correct CategoryID
+			// If existing group name, assign correct CategoryID
 		: ($categories_es.length=1)
 			Form:C1466.ent.CategoryID:=$categories_es.first().ID
 			groupAction_t:="On Existing Group"
 			
-			  // If new group, create new group
+			// If new group, create new group
 		: ($categories_es.length=0)
-			C_OBJECT:C1216($newCategory_e)
+			var $newCategory_e : cs:C1710.CategoryEntity
 			$newCategory_e:=ds:C1482.Category.new()
 			$newCategory_e.Name:=Form:C1466.categoryName
 			$status_o:=$newCategory_e.save()

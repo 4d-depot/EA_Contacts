@@ -10,6 +10,9 @@
 	"markerBody": 200,
 	"markerBreak": 220,
 	"markerFooter": 240,
+	"css": {
+		"$ref": "/LOGS/theme/theme.json#/css1"
+	},
 	"events": [
 		"onLoad",
 		"onTimer",
@@ -85,8 +88,7 @@
 					"left": 241,
 					"width": 338,
 					"height": 31,
-					"fill": "automatic",
-					"class": "accentColor4"
+					"class": "accentColor2 accentBackColor4"
 				},
 				"Oval": {
 					"type": "oval",
@@ -95,7 +97,7 @@
 					"width": 13,
 					"height": 13,
 					"fill": "transparent",
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"Line": {
 					"type": "line",
@@ -103,7 +105,7 @@
 					"left": 259,
 					"width": 7,
 					"height": 7,
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"Invisible Button": {
 					"type": "button",
@@ -122,35 +124,35 @@
 					"top": 70,
 					"left": 559,
 					"width": 2,
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"Line2": {
 					"type": "line",
 					"top": 69,
 					"left": 558,
 					"width": 4,
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"Line3": {
 					"type": "line",
 					"top": 68,
 					"left": 557,
 					"width": 6,
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"Line4": {
 					"type": "line",
 					"top": 67,
 					"left": 556,
 					"width": 8,
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"Line5": {
 					"type": "line",
 					"top": 66,
 					"left": 555,
 					"width": 10,
-					"class": "accentColor4"
+					"class": "accentColor1"
 				},
 				"searchText": {
 					"type": "input",
@@ -167,7 +169,7 @@
 					"events": [
 						"onAfterEdit"
 					],
-					"class": "",
+					"class": "default",
 					"fill": "transparent"
 				},
 				"contactInput_SF": {
@@ -214,10 +216,8 @@
 					"width": 46,
 					"height": 16,
 					"textAlign": "center",
-					"fontFamily": "System Font ",
-					"fontSize": 13,
 					"text": "NEW",
-					"class": "accentColor3"
+					"class": "accentColor3 fontSmall"
 				},
 				"Oval1": {
 					"type": "oval",
@@ -431,6 +431,14 @@
 	],
 	"editor": {
 		"groups": {
+			"Group": [
+				"layoutButton1Rect",
+				"Rectangle11",
+				"Rectangle1",
+				"Rectangle2",
+				"Rectangle3",
+				"Rectangle15"
+			],
 			"Group1": [
 				"Oval",
 				"Line"
@@ -453,22 +461,13 @@
 				"Rectangle12",
 				"Rectangle13",
 				"Rectangle14"
-			],
-			"Group": [
-				"layoutButton1Rect",
-				"Rectangle11",
-				"Rectangle1",
-				"Rectangle2",
-				"Rectangle3",
-				"Rectangle15"
 			]
 		},
-		"activeView": "View 1",
+		"activeView": "View 2",
 		"defaultView": "View 1",
 		"views": {
 			"View 1": {},
 			"View 2": {
-				"visible": false,
 				"objects": [
 					"upButton1",
 					"layoutButton1",
@@ -481,5 +480,5 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 148
+	"geometryStamp": 200
 }
