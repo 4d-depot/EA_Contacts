@@ -3,6 +3,10 @@ Featuring: Subform, Listbox, and Dynamic objects
 
 This application provides simple functionalities for a user to manage their contacts information. The display of contacts is available in 2 layout options: list and grid layout. The implementation utilizes a combination of Subform, Listbox, and Dynamic objects. It also includes CSS-based theming with support for light and dark modes, allowing for a consistent and customizable user interface.
 
+<p align="center">
+<img src="Resources/Images/contact.png" alt="Contacts Application" width="45%">
+</p>
+
 Minimum requirement: 4D 20 LTS
 
 ## Installing and Using a 4D Project
