@@ -1,0 +1,29 @@
+{
+	"C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Project\\Contacts.4DProject": [
+		{
+			"backupPath": "C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Contacts[0001].4BK",
+			"structurePath": "C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Project\\Contacts.4DProject",
+			"dataPath": "C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Data\\Contacts.4DD",
+			"logPath": "",
+			"startingDate": "2026-01-29T10:48:04.830Z",
+			"endingDate": "2026-01-29T10:48:04.830Z",
+			"scheduledDate": "2026-01-29T10:48:04.830Z",
+			"backupNumber": 1,
+			"duration": 197,
+			"attachments": [
+				{
+					"attachmentPath": "C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Data\\Contacts.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Data\\Contacts.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\Users\\Karim Meghraoui\\Desktop\\EA_Contacts\\Data\\Contacts.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}

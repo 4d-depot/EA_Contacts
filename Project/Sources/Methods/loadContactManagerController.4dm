@@ -1,6 +1,6 @@
 //%attributes = {"invisible":true}
-#DECLARE($contactAction_t : Text; $groupAction_t : Text)
 
+#DECLARE($contactAction_t : Text; $groupAction_t : Text)
 var contactRow_l : Integer
 var $categoryRow_l : Integer
 

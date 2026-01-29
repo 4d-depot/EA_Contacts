@@ -1,14 +1,6 @@
 //%attributes = {"invisible":true}
-C_LONGINT:C283(cellwidth_l)
-C_LONGINT:C283(colCount_l)
-C_TEXT:C284(contactAction_t)
-C_LONGINT:C283(contactRow_l)
-C_TEXT:C284(groupAction_t)
-C_LONGINT:C283(lastCell_l)
-C_LONGINT:C283(lastDeletedContactPos_l)
-C_LONGINT:C283(lastSelectedCategoryPos_l)
-C_OBJECT:C1216(lastSelectedCategory_o)
-C_OBJECT:C1216(lastUpdatedContact_e)
-C_OBJECT:C1216(next_e)
-C_OBJECT:C1216(prev_e)
-C_LONGINT:C283(widthOffset_l)
+// Updated by : Karim Meghraoui
+
+var cellwidth_l; colCount_l; contactRow_l; lastCell_l; lastDeletedContactPos_l; lastSelectedCategoryPos_l; widthOffset_l : Integer
+var contactAction_t; groupAction_t : Text
+var lastSelectedCategory_o; lastUpdatedContact_e; next_e; prev_e : Object

@@ -7,7 +7,7 @@ This application provides simple functionalities for a user to manage their cont
 <img src="Resources/Images/contact.png" alt="Contacts Application" width="45%">
 </p>
 
-Minimum requirement: 4D 20 LTS
+Minimum requirement: 4D 21 LTS
 
 ## Installing and Using a 4D Project
 
